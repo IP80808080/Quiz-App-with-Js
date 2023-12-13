@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700;900&family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3FB;
+    background-image: linear-gradient(to right bottom, #ffb6e0, #f2b4e9, #e1b4f1, #cdb4f8, #b5b5fd, #9dbeff, #85c5ff, #71ccff, #65daff, #62e7ff, #6af3fc, #7dfef5);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quiz-container {
+    background-color: white;
+    width: 500px;
+    border-radius: 2vh;
+    box-shadow: 0 0 10px #9294A4;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+li {
+    padding-left: 0rem;
+    padding-right: 1rem;
+    padding-top: 1vh;
+}   
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #4370E7;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-color: transparent;
+    font-family: inherit;
+    font-size: large;
+    text-align: center;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #385ec5;
+}
+
+button:focus {
+    background-color: #385ec5;
+    outline: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul li {
+    font-size: medium;
+    margin: 1rem 0;
+
+}
